@@ -2,6 +2,8 @@
 
 Mission for testing the malfunctions script.
 
+The mission requires RHS and CUP units, the script itself doesn't need anything.
+
 ## what the script does
 
 It adds the possibility of a rocket-like projectile (from rocket launchers etc) to malfunction while being fired.
