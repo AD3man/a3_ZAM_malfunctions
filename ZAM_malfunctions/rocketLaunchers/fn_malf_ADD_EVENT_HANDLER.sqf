@@ -1,12 +1,10 @@
 params ["_unit", ["_defaultProbabilities", [0.1,0.3,0.6], [[]], [3]], ["_maxDelays", [1,5], [[]], [2]]];
-systemChat "adding eventhandler!";
 
 // set variables to unit, so they can be accessed in eventHandler;
 _unit setVariable ["ZAM_malf_DEFAULTS", _defaultProbabilities];
 _unit setVariable ["ZAM_malf_MAX_DELAYS", _defaultProbabilities];
 _unit addEventHandler ["Fired", {
 	params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"];
-	systemChat "shot";
 	_usedammo = getText (configfile >> "CfgMagazines" >> _magazine >> "ammo");
  
 	(_unit getVariable "ZAM_malf_DEFAULTS") params ["_defMalfProb", "_defLiveProb", "_defInertReactProb"];
