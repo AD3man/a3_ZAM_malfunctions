@@ -14,7 +14,7 @@ The malfunctioned projectile can either be live or inert. If inert, the projecti
 
 ## Usage of the script
 
-Copy "ZAM_malfunctions" folder and the "CfgFunctions" part of description.exe into your mission.
+Copy "ZAM_malfunctions" folder and the "CfgFunctions" part of description.ext into your mission.
 
 For each unit you wish this script to work for add:
 
