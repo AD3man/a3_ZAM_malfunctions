@@ -33,6 +33,8 @@ Where:
 ### Per unit probabilities
 
 Each unit can have it's own probabilities of malfunction.
+These can be changed anytime and are read when the unit fires.
+
 With "addvariable" add these variables to the unit:
 * ZAM_malf_MALFUNCTION_PROBABILITY
 * ZAM_malf_LIVE_ROUND_PROBABILITY
