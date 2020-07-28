@@ -1,0 +1,11 @@
+class CfgFunctions
+{
+	class ZAM
+	{
+		class func
+		{
+			file = "ZAM_malfunctions\rocketLaunchers";
+			class malf_ADD_EVENT_HANDLER {};
+		};
+	};
+};
