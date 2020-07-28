@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4300.9497,9.6987267,4340.7314};
-		dir[]={-0.21775787,-0.45878208,0.86151069};
-		up[]={-0.11243253,0.88853407,0.44480905};
-		aside[]={0.96955872,-6.4362393e-007,0.2450698};
+		pos[]={4298.0215,9.6987267,4338.6348};
+		dir[]={0.028636053,-0.23740524,0.97104788};
+		up[]={0.0069983788,0.97139686,0.23734185};
+		aside[]={0.99962616,-3.3139077e-007,-0.029477455};
 	};
 };
 binarizationWanted=0;
@@ -54,12 +54,14 @@ class AddonsMetaData
 randomSeed=7177693;
 class ScenarioData
 {
-	author="James Zweis";
+	author="Zetho";
+	briefing=0;
 };
 class Mission
 {
 	class Intel
 	{
+		briefingName="ZAM_malfunctions_test";
 		timeOfChanges=1800.0002;
 		startWeather=0;
 		startWind=0.1;
