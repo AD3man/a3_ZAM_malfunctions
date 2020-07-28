@@ -14,7 +14,7 @@ The malfunctioned projectile can either be live or inert. If inert, the projecti
 
 ## Usage of the script
 
-Copy "ZAM_malfunctions" folder and the "CfgFunctions" part of description.exe into your mission.
+Copy "ZAM_malfunctions" folder and the "CfgFunctions" part of description.ext into your mission.
 
 For each unit you wish this script to work for add:
 
@@ -33,6 +33,8 @@ Where:
 ### Per unit probabilities
 
 Each unit can have it's own probabilities of malfunction.
+These can be changed anytime and are read when the unit fires.
+
 With "addvariable" add these variables to the unit:
 * ZAM_malf_MALFUNCTION_PROBABILITY
 * ZAM_malf_LIVE_ROUND_PROBABILITY
