@@ -1,6 +1,6 @@
 params ["_unit", ["_defaultProbabilities", [0.1,0.3,0.6], [[]], [3]], ["_maxDelays", [1,5], [[]], [2]]];
 
-// set variables to unit, so they can be accessed in eventHandler;
+// set variables to unit, so they can be accessed in eventHandler
 _unit setVariable ["ZAM_malf_DEFAULTS", _defaultProbabilities];
 _unit setVariable ["ZAM_malf_MAX_DELAYS", _defaultProbabilities];
 _unit addEventHandler ["Fired", {
