@@ -18,7 +18,7 @@ _unit addEventHandler ["Fired", {
 			private _activationDelay = (random _maxActivationDelay);
 			private _reactivationDelay = 1 + (random _maxReactivationDelay);
 
-			hint "malfunction";
+			 
 			0 = [_projectile, _unit, _activationDelay, _LIVE_ROUND_PROBABILITY,_INERT_REACTIVATION_PROBABILITY, _reactivationDelay] spawn {
 				params ["_projectile","_unit", "_activationDelay", "_LIVE_ROUND_PROBABILITY","_reactivationProbability", "_reactivationDelay"];
 				
