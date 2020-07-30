@@ -7,6 +7,7 @@ The mission requires RHS and CUP units, the script itself doesn't need anything.
 ## what the script does
 
 It adds the possibility of a rocket-like projectile (from rocket launchers etc) to malfunction while being fired.
+Malfuncions manifest in a possibility of a rocket launcher unkindly ejecting a "possibly live" projectile somewhere around your legs. 
 
 The malfunctioned projectile can either be live or inert. If inert, the projectile can re-activate.
 
